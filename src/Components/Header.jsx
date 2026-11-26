@@ -26,25 +26,25 @@ const Header = () => {
                         <ul className="navbar-nav me-auto">
 
                             <li className="nav-item">
-                                <NavLink to="/Home" className="nav-link">
+                                <NavLink to="/home" className="nav-link">
                                     Home
                                 </NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/About" className="nav-link">
+                                <NavLink to="/about" className="nav-link">
                                     About
                                 </NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/Services" className="nav-link">
+                                <NavLink to="/services" className="nav-link">
                                     Services
                                 </NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/Contact" className="nav-link">
+                                <NavLink to="/contact" className="nav-link">
                                     Contact
                                 </NavLink>
                             </li>

@@ -6,9 +6,13 @@ import Header from './Components/Header'
 
 import Home from './Pages/Home'
 import About from './Pages/About'
-import Services from './Pages/Services'
-import Product from './Pages/Product'
 import Contact from './Pages/Contact'
+import Rent from './Pages/Rent'
+import Buy from './Pages/Buy'
+import Chikhali from './Pages/Chikhali'
+import Moshi from './Pages/Moshi';
+import Ravet from './Pages/Ravet';
+import Akurdi from './Pages/Akurdi';
 
 function App() {
   return (
@@ -18,9 +22,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/buy" element={<Buy />} />
+        <Route path="/rent" element={<Rent />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/chikhali" element={<Chikhali />} />
+        <Route path="/moshi" element={<Moshi />} />
+        <Route path="/ravet" element={<Ravet />} />
+        <Route path="/akurdi" element={<Akurdi />} />
       </Routes>
 
       <Footer />

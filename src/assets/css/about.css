@@ -1,0 +1,66 @@
+/* ================= BODY ================= */
+.about-section {
+    background-image: url('../images/background3.avif');
+     background: linear-gradient(135deg, #9dc5c3, #f5f5dc);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    padding: 50px 0;
+    min-height: calc(100vh - 70px);
+}
+
+/* ================= ABOUT CARD ================= */
+.about-card {
+    background-color: rgba(255, 255, 0, 0.92);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* ================= HEADING ================= */
+.about-card h4 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: black;
+}
+/* ================= PARAGRAPH ================= */
+.about-card p {
+    background: transparent;
+    color: black;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+
+}
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 767px) {
+   .about-section {
+        background-attachment: scroll;
+        background-position: center;
+        padding: 25px 10px;
+    }
+  /* About Card */
+  .about-card {
+        padding: 20px 15px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 0, 0.95);
+   }
+
+    /* Heading */
+   .about-card h3 {
+        font-size: 26px;
+        margin-bottom: 18px;
+   }
+
+   /* Paragraph */
+    .about-card p {
+        font-size: 15px;
+        line-height: 1.7;
+        text-align: justify;
+    }
+}

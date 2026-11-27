@@ -1,60 +1,106 @@
 import { NavLink } from 'react-router-dom';
+import logo from '../assets/images/logo8.png';
+import '../assets/css/Header.css';
 
 const Header = () => {
+
     return (
-        <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <header>
+
+            <nav className="navbar navbar-expand-lg custom-navbar">
+
                 <div className="container-fluid">
 
+                    {/* Logo */}
+
                     <NavLink to="/" className="navbar-brand">
-                        My Website
+
+                        <img
+                            src={logo}
+                            alt="Logo"
+                            width="100"
+                            height="50"
+                        />
+
                     </NavLink>
+
+
+                    {/* Toggle Button */}
 
                     <button
                         className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#navbarMenu"
-                        aria-controls="navbarMenu"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
+
                         <span className="navbar-toggler-icon"></span>
+
                     </button>
 
-                    <div className="collapse navbar-collapse" id="navbarMenu">
-                        <ul className="navbar-nav me-auto">
+
+                    {/* Navbar Links */}
+
+                    <div
+                        className="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <NavLink to="/home" className="nav-link">
-                                    Home
-                                </NavLink>
+                                <NavLink className="nav-link" to="/">Home</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/about" className="nav-link">
-                                    About
-                                </NavLink>
+                                <NavLink className="nav-link" to="/buy">Buy</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/services" className="nav-link">
-                                    Services
-                                </NavLink>
+                                <NavLink className="nav-link" to="/rent">Rent</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/contact" className="nav-link">
-                                    Contact
-                                </NavLink>
+                                <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                            </li>
+
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/about">About Us</NavLink>
                             </li>
 
                         </ul>
+
+
+                        {/* Search */}
+
+                        <form className="d-flex" role="search">
+
+                            <input
+                                className="form-control me-2"
+                                type="search"
+                                placeholder="Search"
+                            />
+
+                            <button className="btn btn-outline-light" type="submit">
+                                Search
+                            </button>
+
+                        </form>
+
                     </div>
+
                 </div>
+
             </nav>
-        </>
+
+        </header>
+
     );
+
 };
 
-export default Header
+export default Header;

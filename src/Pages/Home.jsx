@@ -2,6 +2,7 @@ import home1 from '../assets/images/home1.jpg';
 import home3 from '../assets/images/home3.jpg';
 import home4 from '../assets/images/home4.jpg';
 import proimg1 from '../assets/images/proimg1.png';
+import '../assets/css/home.css'; 
 
 // const headingColor = {
 
@@ -110,6 +111,7 @@ const Home = () => {
                     </div>
 
                     <h1 style={{color:"red", backgroundColor:"yellow"}}> Hello How are you</h1>
+                    <h1 className="my-text">Hello How are you 2</h1>
 
                 </div>
             </section>

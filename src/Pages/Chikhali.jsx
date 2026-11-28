@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import '../assets/css/chikhali.css';
 
 import ChikhaliKitchen from '../assets/images/Chikhali_kitchen.jpeg';
+import Bedroom from '../assets/images/Bedroom_img.jpg';
+import Hall from '../assets/images/Hall_img.jpg';
 
 const Chikhali = () => {
     return (
@@ -21,7 +23,7 @@ const Chikhali = () => {
                         <div className="col-md-5 mb-3 mb-md-0">
 
                             <img
-                                src={ChikhaliKitchen}
+                                src={Hall}
                                 alt="Chikhali Apartment Hall"
                                 className="property-img"
                             />
@@ -86,7 +88,7 @@ const Chikhali = () => {
                         <div className="col-md-5 mb-3 mb-md-0">
 
                             <img
-                                src={ChikhaliKitchen}
+                                src={Bedroom}
                                 alt="Chikhali Apartment Bedroom"
                                 className="property-img"
                             />

@@ -13,7 +13,7 @@ const About = () => {
                                     About Us
                                 </h3>
                                <p>
-                                    Welcome to our trusted property platform, your trusted
+                                Welcome to our Mahakali developers trusted property platform, your trusted
                                     partner for finding the right residential property in some
                                     of the fastest-growing and well-connected areas of Pune.
 
@@ -73,6 +73,8 @@ const About = () => {
                                     At our property platform, we don't simply deal in
                                     properties—we help people find homes, make confident
                                     decisions, and take the next step toward a better future.
+                                  
+                               
                                </p>
                            </div>
                        </div>

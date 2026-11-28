@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import '../assets/css/Ravet.css';
 
 import RavetKitchen from '../assets/images/Chikhali_kitchen.jpeg';
+import Bedroom from '../assets/images/Bedroom_img.jpg';
+import Hall from '../assets/images/Hall_img.jpg';
+
 
 const Ravet = () => {
     return (
@@ -22,7 +25,7 @@ const Ravet = () => {
                         <div className="col-md-5 mb-3 mb-md-0">
 
                             <img
-                                src={RavetKitchen}
+                                src={Hall}
                                 alt="Ravet Apartment Hall"
                                 className="property-img"
                             />
@@ -91,7 +94,7 @@ const Ravet = () => {
                         <div className="col-md-5 mb-3 mb-md-0">
 
                             <img
-                                src={RavetKitchen}
+                                src={Bedroom}
                                 alt="Ravet Apartment Bedroom"
                                 className="property-img"
                             />

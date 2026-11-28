@@ -34,7 +34,7 @@ const Rent = () => {
             </section>
 
             {/* Product Section */}
-            <section className="bg-dark">
+            <section className="rent-location-section">
                 <div className="container pb-4">
                     <div className="row">
 

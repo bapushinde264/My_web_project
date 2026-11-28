@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import '../assets/css/Akurdi.css';
 
 import AkurdiImage from '../assets/images/Chikhali_kitchen.jpeg';
+import Bedroom from '../assets/images/Bedroom_img.jpg';
+import Hall from '../assets/images/Hall_img.jpg';
+
 
 const Akurdi = () => {
     return (
@@ -22,7 +25,7 @@ const Akurdi = () => {
                         <div className="col-md-5 mb-3 mb-md-0">
 
                             <img
-                                src={AkurdiImage}
+                                src={Hall}
                                 alt="Akurdi Apartment Hall"
                                 className="property-img"
                             />
@@ -89,7 +92,7 @@ const Akurdi = () => {
                         <div className="col-md-5 mb-3 mb-md-0">
 
                             <img
-                                src={AkurdiImage}
+                                src={Bedroom}
                                 alt="Akurdi Apartment Bedroom"
                                 className="property-img"
                             />

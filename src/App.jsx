@@ -13,10 +13,12 @@ import Chikhali from './Pages/Chikhali'
 import Moshi from './Pages/Moshi';
 import Ravet from './Pages/Ravet';
 import Akurdi from './Pages/Akurdi';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
 
       <Routes>

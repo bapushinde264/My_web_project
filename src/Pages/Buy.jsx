@@ -34,7 +34,7 @@ const Buy = () => {
             </section>
 
             {/* Product Section */}
-            <section className="bg-dark">
+            <section className="buy-location-section">
                 <div className="container pb-4">
                     <div className="row">
 
